@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileToDesktopAuto - Ultra Max Power</title>
+    <style>
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --glass: rgba(255, 255, 255, 0.9);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 90%;
+            margin: 40px auto;
+        }
+        header {
+            background: var(--glass);
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; color: #2d3436; font-size: 2.5rem; }
+        .tagline { color: #636e72; font-size: 1.1rem; margin-top: 10px; }
+
+        .install-card {
+            background: var(--glass);
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .btn-install {
+            display: inline-block;
+            background: linear-gradient(to right, #00b09b, #96c93d);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(0,176,155,0.4);
+        }
+        .btn-install:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,176,155,0.6);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .feature-box {
+            background: var(--glass);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(5px);
+        }
+        .feature-box h3 { color: var(--secondary); margin-top: 0; }
+        
+        .instructions {
+            background: rgba(0,0,0,0.05);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            color: white;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>🚀 MobileToDesktopAuto</h1>
+        <p class="tagline">मोबाइल ब्राउज़र में पूर्ण डेस्कटॉप अनुभव का जादू</p>
+    </header>
+
+    <div class="install-card">
+        <h2>तैयार हैं?</h2>
+        <p>नीचे दिए गए बटन पर क्लिक करके स्क्रिप्ट इंस्टॉल करें</p>
+        <br>
+        <a href="https://raw.githubusercontent.com/ajaysingh132/MobileToDesktopAuto/main/script.user.js" class="btn-install">
+            📥 अभी इंस्टॉल करें (Install Now)
+        </a>
+        
+        <div class="instructions">
+            <strong>कैसे इस्तेमाल करें:</strong><br>
+            1. <b>Kiwi Browser</b> इंस्टॉल करें।<br>
+            2. <b>Tampermonkey</b> एक्सटेंशन जोड़ें।<br>
+            3. ऊपर दिए गए बटन पर क्लिक करें और 'Install' दबाएं।
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature-box">
+            <h3>🕵️‍♂️ पूर्ण पहचान</h3>
+            <p>वेबसाइट्स को लगेगा कि आप Windows 10 PC का उपयोग कर रहे हैं।</p>
+        </div>
+        <div class="feature-box">
+            <h3>🖥️ ऑटो-लेआउट</h3>
+            <p>हर साइट 1280px की चौड़ाई में खुलेगी, कोई मोबाइल व्यू नहीं।</p>
+        </div>
+        <div class="feature-box">
+            <h3>🔍 स्मार्ट ज़ूम</h3>
+            <p>85% ज़ूम लेवल के साथ सब कुछ स्क्रीन पर परफेक्ट फिट होगा।</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 ajaysingh132 | GitHub पर उपलब्ध
+    </footer>
+</div>
+
+</body>
+  </html>
